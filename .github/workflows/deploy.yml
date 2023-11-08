@@ -16,4 +16,6 @@ jobs:
           python-version: '3.10'
 
       - name: Display Payload
-        run: echo ${{ github.event }}
+        run: |
+          echo ${{ github.event }}
+          echo ${{ fromJSON(github.event) }}
