@@ -2,6 +2,11 @@ name: Deployment
 
 on:
   workflow_dispatch:
+    inputs:
+      sample:
+        description: 'Sample Input'
+        type: string
+        required: true
 
 jobs:
   Deploy:
@@ -17,5 +22,4 @@ jobs:
 
       - name: Display Payload
         run: |
-          echo ${{ github.event }}
-          echo ${{ fromJSON(github.event) }}
+          echo ${{ inputs.sample }}
