@@ -1,8 +1,11 @@
-Общая информация
-================
+Лабораторные работы для 2-го курса ФПЛ (2024/2025)
+==================================================
 
-Преподаватели
--------------
+В рамках предмета
+`“Программирование для лингвистов” <https://www.hse.ru/edu/courses/902204002>`__
+в НИУ ВШЭ - Нижний Новгород.
+
+**Преподаватели:**
 
 -  `Демидовский Александр
    Владимирович <https://www.hse.ru/staff/demidovs>`__ - лектор
@@ -21,15 +24,15 @@
 -  `Хомутова Екатерина Сергеевна <https://t.me/ekaterina_hom>`__ -
    ассистент
 
-План лабораторных работ
------------------------
+**План лабораторных работ:**
 
 1. `Определение языка текста на основе частотного
    словаря <https://github.com/fipl-hse/2024-2-level-labs/tree/main/lab_1_classify_by_unigrams>`__
 
    1. Дедлайн: 4 октября
 
-2. `Оценка релевантности документов с помощью BM25 <https://github.com/fipl-hse/2024-2-level-labs/tree/main/lab_2_retrieval_w_bm25>`__
+2. `Оценка релевантности документов с помощью
+   BM25 <https://github.com/fipl-hse/2024-2-level-labs/tree/main/lab_2_retrieval_w_bm25>`__
 
    1. Дедлайн: 1 ноября
 
@@ -51,42 +54,58 @@
 | 06.09.2024 | Установочная встреча.      | Создание форка.                                      |
 +------------+----------------------------+------------------------------------------------------+
 | 13.09.2024 | Краткий обзор преимуществ  | Запуск, отладка программ на Python.                  |
-|            | и недостатков языка.       | `Листинг <https://github.com/fipl-hse/               |
-|            |                            | 2024-2-level-labs/blob/main/seminars/                |
-|            |                            | practice_1_run_debug.py>`__.                         |
+|            | и недостатков языка.       | `Листинг <./seminars/practice_1_run_debug.py>`__.    |
 +------------+----------------------------+------------------------------------------------------+
 | 20.09.2024 | Строки.                    | Строки.                                              |
-|            |                            | `Листинг <https://github.com/fipl-hse/               |
-|            |                            | 2024-2-level-labs/blob/main/seminars/                |
-|            |                            | practice_2_strings.py>`__.                           |
+|            |                            | `Листинг <./seminars/practice_2_strings.py>`__.      |
 +------------+----------------------------+------------------------------------------------------+
 | 27.09.2024 | Списки.                    | Списки.                                              |
-|            |                            | `Листинг <https://github.com/fipl-hse/               |
-|            |                            | 2024-2-level-labs/blob/main/seminars/                |
-|            |                            | practice_3_lists.py>`__.                             |
+|            |                            | `Листинг <./seminars/practice_3_lists.py>`__.        |
 +------------+----------------------------+------------------------------------------------------+
 | 04.10.2024 | Словари.                   | Сдача лабораторной работы №1.                        |
 +------------+----------------------------+------------------------------------------------------+
 | 11.10.2024 | Функции.                   | Словари.                                             |
-|            |                            | `Листинг <https://github.com/fipl-hse/               |
-|            |                            | 2024-2-level-labs/blob/main/seminars/                |
-|            |                            | practice_4_dicts.py>`__.                             |
+|            |                            | `Листинг <./seminars/practice_4_dicts.py>`__.        |
 |            |                            | Функции.                                             |
-|            |                            | `Листинг <https://github.com/fipl-hse/               |
-|            |                            | 2024-2-level-labs/blob/main/seminars/                |
-|            |                            | practice_5_functions.py>`__.                         |
+|            |                            | `Листинг <./seminars/practice_5_functions.py>`__.    |
 +------------+----------------------------+------------------------------------------------------+
 | 18.10.2024 | Введение в ООП.            | Классы.                                              |
-|            |                            | `Листинг <https://github.com/fipl-hse/               |
-|            |                            | 2024-2-level-labs/blob/main/seminars/                |
-|            |                            | practice_6_classes.py>`__.                           |
+|            |                            | `Листинг <./seminars/practice_6_classes.py>`__.      |
 +------------+----------------------------+------------------------------------------------------+
 | 25.10.2024 | Зачётная неделя.           | N/A.                                                 |
 +------------+----------------------------+------------------------------------------------------+
 | 01.11.2024 | Инкапсуляция.              | Сдача лабораторной работы №2.                        |
 +------------+----------------------------+------------------------------------------------------+
 
-Более полное содержание пройденных занятий Вы найдёте в :ref:`lectures-content-label-2024`.
+
+Более полное содержание пройденных занятий Вы найдете в :ref:`lectures-content-label`.
+
+Литература
+----------
+
+Базовый уровень
+~~~~~~~~~~~~~~~
+
+1. M. Lutz. `Learning
+   Python <https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730>`__.
+2. Хирьянов Т.Ф. Видеолекции. `Практика
+   программирования на Python
+   3 <https://www.youtube.com/watch?v=fgf57Sa5A-A&list=PLRDzFCPr95fLuusPXwvOPgXzBL3ZTzybY>`__
+   . 2019.
+3. Хирьянов Т.Ф. Видеолекции. `Алгоритмы и структуры данных на
+   Python3 <https://www.youtube.com/watch?v=KdZ4HF1SrFs&list=PLRDzFCPr95fK7tr47883DFUbm4GeOjjc0>`__
+   . 2017.
+4. `Официальная документация Python <https://docs.python.org/3/>`__.
+
+Продвинутый уровень
+~~~~~~~~~~~~~~~~~~~
+
+1. M. Lutz. `Programming Python: Powerful Object-Oriented
+   Programming <https://www.amazon.com/Programming-Python-Powerful-Object-Oriented/dp/0596158106>`__
+2. J. Burton Browning. `Pro Python 3: Features and Tools for Professional
+   Development <https://www.amazon.com/Pro-Python-Features-Professional-Development/dp/1484243846>`__.
+3. Хирьянов Т.Ф. Видеолекции. `Основы программирования и анализа данных на
+   Python <https://teach-in.ru/course/python-programming-and-data-analysis-basics>`__. 2022.
 
 Порядок сдачи и оценивания лабораторной работы
 ----------------------------------------------
@@ -124,38 +143,11 @@
 4. Имеет лейбл ``done``, выставленный ментором. Означает, что ментор
    посмотрел код студента и удовлетворён качеством кода.
 
-Литература
-----------
-
-Базовый уровень
-~~~~~~~~~~~~~~~
-
-1. M. Lutz. `Learning
-   Python <https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730>`__.
-2. Хирьянов Т.Ф. Видеолекции. `Практика
-   программирования на Python
-   3 <https://www.youtube.com/watch?v=fgf57Sa5A-A&list=PLRDzFCPr95fLuusPXwvOPgXzBL3ZTzybY>`__
-   . 2019.
-3. Хирьянов Т.Ф. Видеолекции. `Алгоритмы и структуры данных на
-   Python3 <https://www.youtube.com/watch?v=KdZ4HF1SrFs&list=PLRDzFCPr95fK7tr47883DFUbm4GeOjjc0>`__
-   . 2017.
-4. `Официальная документация Python <https://docs.python.org/3/>`__.
-
-Продвинутый уровень
-~~~~~~~~~~~~~~~~~~~
-
-1. M. Lutz. `Programming Python: Powerful Object-Oriented
-   Programming <https://www.amazon.com/Programming-Python-Powerful-Object-Oriented/dp/0596158106>`__
-2. J. Burton Browning. `Pro Python 3: Features and Tools for Professional
-   Development <https://www.amazon.com/Pro-Python-Features-Professional-Development/dp/1484243846>`__.
-3. Хирьянов Т.Ф. Видеолекции. `Основы программирования и анализа данных на
-   Python <https://teach-in.ru/course/python-programming-and-data-analysis-basics>`__. 2022.
-
 Ресурсы
 -------
 
 1. `Таблица
    успеваемости <https://docs.google.com/spreadsheets/d/19Lt-2ZOAJZWD3cY73KWYrRADEDW3Dcoi/edit?usp=sharing&ouid=106746394631440107563&rtpof=true&sd=true>`__
-2. :ref:`starting-guide-ru-label`
+2. :ref:`starting-guide-label`
 3. :ref:`running-tests-label`
 4. :ref:`faq-label`

@@ -3,6 +3,7 @@ Lab 2.
 
 Text retrieval with BM25
 """
+
 # pylint:disable=too-many-arguments, unused-argument
 
 

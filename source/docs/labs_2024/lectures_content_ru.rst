@@ -1,4 +1,4 @@
-.. _lectures-content-label-2024:
+.. _lectures-content-label:
 
 Краткий конспект лекций
 =======================
